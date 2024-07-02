@@ -22,7 +22,7 @@ function crearFichaRol(roleador) {
   const imgDiv = document.createElement("div");
   imgDiv.className = "imgDiv";
   const imgPersonaje = document.createElement("img");
-  imgPersonaje.src = roleador.imagen; // Usar la propiedad imagen del objeto
+  imgPersonaje.src = imgPersonaje.src = `img/img${roleador.nombre}.jpg`;
   imgPersonaje.alt = roleador.nombre;
   imgPersonaje.className = "imgPjs";
   imgDiv.appendChild(imgPersonaje);

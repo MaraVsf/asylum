@@ -15,7 +15,7 @@ function mostrarPersonajes() {
     const divImgWrapper = document.createElement("div");
     divImgWrapper.className = "imgWrapper";
     const imgPersonaje = document.createElement("img");
-    imgPersonaje.src = personaje.imagen; // Usar la propiedad imagen del objeto
+    imgPersonaje.src = `img/img${personaje.nombre}.jpg`; // Usar la propiedad imagen del objeto
     imgPersonaje.alt = personaje.nombre;
     imgPersonaje.className = "imgPjs";
     divImgWrapper.appendChild(imgPersonaje);
@@ -63,7 +63,7 @@ function mostrarRoleadores() {
     const divImgWrapper = document.createElement("div");
     divImgWrapper.className = "imgWrapper";
     const imgRoleador = document.createElement("img");
-    imgRoleador.src = roleador.imagen; // Usar la propiedad imagen del objeto
+    imgRoleador.src = `img/img${roleador.nombre}.jpg`; // Usar la propiedad imagen del objeto
     imgRoleador.alt = roleador.nombre;
     imgRoleador.className = "imgPjs";
     divImgWrapper.appendChild(imgRoleador);

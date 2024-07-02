@@ -21,7 +21,7 @@ function crearFichaPj(personaje) {
   const imgDiv = document.createElement("div");
   imgDiv.className = "imgDiv";
   const imgPersonaje = document.createElement("img");
-  imgPersonaje.src = personaje.imagen; // Usar la propiedad imagen del objeto
+  imgPersonaje.src = `img/img${personaje.nombre}.jpg`; // Usar la propiedad imagen del objeto
   imgPersonaje.alt = personaje.nombre;
   imgPersonaje.className = "imgPjs";
   imgDiv.appendChild(imgPersonaje);
@@ -99,7 +99,7 @@ function crearFichaPj(personaje) {
     const divImgWrapper = document.createElement("div");
     divImgWrapper.className = "imgWrapper";
     const imgRecomendado = document.createElement("img");
-    imgRecomendado.src = `../img/img${recomendado}.jpg`; // Ajustar la ruta según sea necesario
+    imgRecomendado.src = `img/img${recomendado}.jpg`; // Ajustar la ruta según sea necesario
     imgRecomendado.alt = recomendado;
     imgRecomendado.className = "imgPjs";
     divImgWrapper.appendChild(imgRecomendado);

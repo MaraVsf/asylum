@@ -2,7 +2,6 @@ let personajes = [
   {
     nombre: "Adrián",
     rol: "Roleadora: Mara",
-    imagen: "../img/imgAdrián.jpg",
     biografia:
       "Llego a Asylum cuando se entero que su hermana, Sarah, fue ingresada al hospital por una sobredosis. Trabaja para los Sweet Dreams, le encanta disfrutar del momento y es un putero nato.",
     ocupacion: "Miembro de los Sweet Dreams",
@@ -25,7 +24,6 @@ let personajes = [
   {
     nombre: "Sarah",
     rol: "Roleadora: Mara",
-    imagen: "../img/imgSarah.jpg",
     biografia:
       "Después de que su esposa le pidiera el divorció, tiene una sobredosis y queda en coma por un tiempo. Al final despierta, pero tiene perdida de memoria, olvidándose de su mujer y todo lo vivido en el pueblo.",
     ocupacion: "Desconocido",
@@ -47,7 +45,6 @@ let personajes = [
   {
     nombre: "Isidoro",
     rol: "Roleadora: Mara",
-    imagen: "../img/imgIsidoro.jpg",
     biografia: "En Desarrollo",
     ocupacion: "Desconocido",
     familia: "En Desarrollo",
@@ -61,7 +58,6 @@ let personajes = [
 let roleadores = [
   {
     nombre: "Mara",
-    imagen: "../img/imgMara.jpg",
     personajes: ["Adrián", "Sarah", "Isidoro"],
   },
 ];
