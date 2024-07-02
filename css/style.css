@@ -139,7 +139,8 @@ body {
 }
 
 /*? Pagina personajes */
-#fichaPj {
+#fichaPj,
+#fichaRol {
   margin: 20px;
 }
 
@@ -150,8 +151,14 @@ body {
   position: relative;
 }
 
-.headerPj .imgPjs {
+.headerPj .imgDiv {
   width: 100px;
+}
+
+.headerPj .imgDiv .imgPjs {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
   border-radius: 50%;
 }
 
@@ -205,9 +212,25 @@ body {
 .recomend .containerPjs {
   margin: 5px;
   width: 100px;
+  cursor: pointer;
 }
 
 .recomend .containerPjs h3 {
   margin: 0px;
   font-size: 16px;
+}
+
+/*? Pagina del Rol */
+#fichaRol h1 {
+  font-size: 26px;
+}
+
+#fichaRol .pjsRol {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#fichaRol .containerPjs {
+  cursor: pointer;
 }
