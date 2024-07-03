@@ -13,30 +13,21 @@ function encontrarPersonaje(nombre) {
 function crearFichaPj(personaje) {
   const fichaPj = document.querySelector("#fichaPj");
   fichaPj.innerHTML = "";
+
   // Crear elementos para la ficha
   const articleHeader = document.createElement("article");
-  articleHeader.className = "headerPj";
+  articleHeader.className = "containerCab";
 
-  // Imagen del personaje
-  const imgDiv = document.createElement("div");
-  imgDiv.className = "imgDiv";
-  const imgPersonaje = document.createElement("img");
-  imgPersonaje.src = `img/img${personaje.nombre}.jpg`; // Usar la propiedad imagen del objeto
-  imgPersonaje.alt = personaje.nombre;
-  imgPersonaje.className = "imgPjs";
-  imgDiv.appendChild(imgPersonaje);
+  // Cambiar la imagen de fondo de 'containerCab'
+  articleHeader.style.backgroundImage = `url('img/img${personaje.nombre}.jpg')`;
 
-  const descriptionDiv = document.createElement("div");
-  descriptionDiv.className = "descriptionPj";
   const h1 = document.createElement("h1");
   h1.textContent = personaje.nombre;
-  const pRole = document.createElement("p");
-  pRole.textContent = personaje.rol;
+  const pRol = document.createElement("p");
+  pRol.textContent = personaje.rol;
 
-  descriptionDiv.appendChild(h1);
-  descriptionDiv.appendChild(pRole);
-  articleHeader.appendChild(imgDiv);
-  articleHeader.appendChild(descriptionDiv);
+  articleHeader.appendChild(h1);
+  articleHeader.appendChild(pRol);
 
   // Biografía
   const articleBio = document.createElement("article");

@@ -9,32 +9,23 @@ function encontrarRoleador(nombre) {
   return roleadores.find((roleador) => roleador.nombre === nombre);
 }
 
-// Ficha Rol
+// Ficha Rol .containerCab
 function crearFichaRol(roleador) {
   const fichaRol = document.querySelector("#fichaRol");
   fichaRol.innerHTML = ""; // Limpiar contenido previo
 
-  // Crear elementos para la ficha
+  //* Crear elementos para la ficha
   const articleHeader = document.createElement("article");
-  articleHeader.className = "headerPj";
+  articleHeader.className = "containerCab";
 
-  // Imagen del roleador
-  const imgDiv = document.createElement("div");
-  imgDiv.className = "imgDiv";
-  const imgPersonaje = document.createElement("img");
-  imgPersonaje.src = imgPersonaje.src = `img/img${roleador.nombre}.jpg`;
-  imgPersonaje.alt = roleador.nombre;
-  imgPersonaje.className = "imgPjs";
-  imgDiv.appendChild(imgPersonaje);
+  // Cambiar la imagen de fondo de 'containerCab'
+  articleHeader.style.backgroundImage = `url('img/img${roleador.nombre}.jpg')`;
 
-  const descriptionDiv = document.createElement("div");
-  descriptionDiv.className = "descriptionPj";
   const h1 = document.createElement("h1");
   h1.textContent = roleador.nombre;
 
-  descriptionDiv.appendChild(h1);
-  articleHeader.appendChild(imgDiv);
-  articleHeader.appendChild(descriptionDiv);
+  articleHeader.appendChild(h1);
+  //*
 
   // Personajes
   const h2Pers = document.createElement("h2");

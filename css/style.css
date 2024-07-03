@@ -43,6 +43,7 @@ body {
 
 .containerCab h1 {
   font-size: 40px;
+  margin-bottom: 0px;
 }
 
 .containerCab p {
@@ -110,6 +111,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: 2px 2px 3px #0000007c;
 }
 
 .imgWrapper {
@@ -138,50 +140,18 @@ body {
   margin: 5px 0;
 }
 
+.containerPjs h3 {
+  font-size: 16px;
+}
+
+.containerPjs p {
+  font-size: 14px;
+}
+
 /*? Pagina personajes */
-#fichaPj,
-#fichaRol {
-  margin: 20px;
-}
-
-/* Header del personaje */
-
-.headerPj {
-  display: flex;
-  position: relative;
-}
-
-.headerPj .imgDiv {
-  width: 100px;
-}
-
-.headerPj .imgDiv .imgPjs {
-  height: 100px;
-  width: 100px;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.descriptionPj {
-  margin-left: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-.descriptionPj h1,
-.descriptionPj p {
-  position: absolute;
-  left: 120px;
-}
-
-.descriptionPj p {
-  top: 30px;
-}
-
-/* contenido */
 
 .contentPj {
-  margin-top: 20px;
+  margin: 20px;
 }
 
 .contentPj h3,
@@ -221,8 +191,13 @@ body {
 }
 
 /*? Pagina del Rol */
-#fichaRol h1 {
-  font-size: 26px;
+
+#fichaRol .containerCab h1 {
+  margin-bottom: 20px;
+}
+#fichaRol h2,
+#fichaRol contentRol {
+  margin: 20px;
 }
 
 #fichaRol .pjsRol {
