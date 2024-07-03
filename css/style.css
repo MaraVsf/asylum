@@ -5,6 +5,25 @@ body {
 }
 
 /*? Home */
+/* Header*/
+
+.containerHeader {
+  padding: 6px;
+  background-color: #ac5418;
+}
+
+.containerHeader a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #fefefe;
+  font-size: 24px;
+  padding-left: 4px;
+  text-decoration: none;
+}
+
+.containerHeader a:hover {
+  color: #fefefed4;
+}
+
 /* Cabecera */
 
 .containerCab {
@@ -42,6 +61,7 @@ body {
 }
 
 .containerCab h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 40px;
   margin-bottom: 0px;
 }
@@ -56,6 +76,8 @@ body {
   margin: 20px;
   display: flex;
   justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .containerButtons input[type="radio"] {
@@ -63,29 +85,30 @@ body {
 }
 
 .containerButtons .button {
-  width: 300px;
+  width: 400px;
   padding: 2px;
   cursor: pointer;
-  border: 1px solid #575757a2;
-  background-color: #d7d7d7; /* Color de fondo del botón */
+  border: 1px solid #2712007e; /* #575757a2; */
+  background-color: #e9ba87; /* #d7d7d7; Color de fondo del botón */
   text-align: center;
   line-height: 2; /* Ajusta para centrar verticalmente el texto */
 }
 
 .containerButtons .button:first-of-type {
-  border-radius: 20px 1px 1px 20px; /* Bordes redondeados para el primer botón */
+  border-radius: 10px 1px 1px 10px; /* Bordes redondeados para el primer botón */
 }
 
 .containerButtons .button:last-of-type {
-  border-radius: 1px 20px 20px 1px; /* Bordes redondeados para el segundo botón */
+  border-radius: 1px 10px 10px 1px; /* Bordes redondeados para el segundo botón */
 }
 
 .containerButtons input[type="radio"]:checked + .button {
-  background-color: #b0b0b0; /* Color de fondo cuando está seleccionado */
+  background-color: #b85f12; /* #b0b0b0; Color de fondo cuando está seleccionado */
+  color: #fefefe;
 }
 
 .containerButtons .button:hover {
-  background-color: #b0b0b0; /* Color de fondo al pasar el mouse */
+  background-color: #b86012dc; /*#b0b0b0; Color de fondo al pasar el mouse */
 }
 
 /* Personajes */
@@ -103,7 +126,7 @@ body {
 }
 
 .containerPjs {
-  background-color: #e1e1e1;
+  background-color: #d4943c; /* #e1e1e1; */
   border-radius: 30px;
   margin: 6px;
   width: 140px; /* Fija el ancho del contenedor */
@@ -159,6 +182,12 @@ body {
   margin: 10px 0px 0px 0px;
 }
 
+.contentPj h2,
+.recom {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+
 .resalt {
   font-weight: bold;
 }
@@ -181,7 +210,7 @@ body {
 
 .recomend .containerPjs {
   margin: 5px;
-  width: 100px;
+  width: 120px;
   cursor: pointer;
 }
 

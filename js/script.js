@@ -1,12 +1,24 @@
 const pjs = document.querySelector("#pjs");
 const rol = document.querySelector("#rol");
 
+// Función para barajar un array usando el algoritmo de Fisher-Yates
+function barajar(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
+let listaPersonajes = barajar(personajes);
+let listaRoleadores = barajar(roleadores);
+
 // Personajes
 function mostrarPersonajes() {
   rol.innerHTML = ""; // Limpiar el contenedor de rol
   pjs.innerHTML = ""; // Limpiar el contenedor de personajes
 
-  personajes.forEach((personaje) => {
+  listaPersonajes.forEach((personaje) => {
     // Crear artículo contenedor para el personaje
     const articleContainer = document.createElement("article");
     articleContainer.className = "containerPjs";
@@ -54,7 +66,7 @@ function mostrarRoleadores() {
   pjs.innerHTML = ""; // Limpiar el contenedor de personajes
   rol.innerHTML = ""; // Limpiar el contenedor de rol
 
-  roleadores.forEach((roleador) => {
+  listaRoleadores.forEach((roleador) => {
     // Crear artículo contenedor para el roleador
     const articleContainer = document.createElement("article");
     articleContainer.className = "containerPjs";

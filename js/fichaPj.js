@@ -82,6 +82,9 @@ function crearFichaPj(personaje) {
   // Recomendaciones
   const articleRecomend = document.createElement("article");
   articleRecomend.className = "contentPj recomend";
+  const h2Recomend = document.createElement("h2");
+  h2Recomend.textContent = "Recomendaciones";
+  h2Recomend.className = "contentPj recom";
 
   personaje.recomendados.forEach((recomendado) => {
     const divContainer = document.createElement("div");
@@ -118,6 +121,7 @@ function crearFichaPj(personaje) {
   fichaPj.appendChild(articleBio);
   fichaPj.appendChild(articleHist);
   fichaPj.appendChild(articleCurio);
+  fichaPj.appendChild(h2Recomend);
   fichaPj.appendChild(articleRecomend);
 }
 

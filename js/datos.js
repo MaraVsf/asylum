@@ -291,6 +291,6 @@ let personajes = [
       "Su película favorita es Mulan.",
       "Le encanta la música K-pop.",
     ],
-    recomendados: ["Adrián Firestone", "Lorna Castro", "Agente X"],
+    recomendados: ["Adrián Firestone", "Lorna Castro"],
   },
 ];
