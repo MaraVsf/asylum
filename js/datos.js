@@ -1,7 +1,7 @@
 let roleadores = [
   {
     nombre: "Mara",
-    personajes: ["Adrián", "Sarah", "Isidoro"],
+    personajes: ["Adrián Firestone", "Sarah Firestone", "Isidoro Navarro"],
   },
   {
     nombre: "Sweet",
@@ -18,13 +18,13 @@ let roleadores = [
   },
   {
     nombre: "Lolo",
-    personajes: ["Lorna Castro", "Agente X"],
+    personajes: ["Lorna Castro", "Agente X", "Bo Xin"],
   },
 ];
 
 let personajes = [
   {
-    nombre: "Adrián",
+    nombre: "Adrián Firestone",
     rol: "Roleadora: Mara",
     biografia:
       "Llego a Asylum cuando se entero que su hermana, Sarah, fue ingresada al hospital por una sobredosis. Trabaja para los Sweet Dreams, le encanta disfrutar del momento y es un putero nato.",
@@ -43,10 +43,10 @@ let personajes = [
       "No le gustan los mariscos ni la policía.",
       "Después de que un hombre enmascarado de toro lo atacara y lo dejara gravemente lastimado, generó una fobia hacia los toros.",
     ],
-    recomendados: ["Sarah", "Isidoro"],
+    recomendados: ["Sarah Firestone", "Isidoro Navarro"],
   },
   {
-    nombre: "Sarah",
+    nombre: "Sarah Firestone",
     rol: "Roleadora: Mara",
     biografia:
       "Después de que su esposa le pidiera el divorció, tiene una sobredosis y queda en coma por un tiempo. Al final despierta, pero tiene perdida de memoria, olvidándose de su mujer y todo lo vivido en el pueblo.",
@@ -64,18 +64,25 @@ let personajes = [
       "No le gustan los hombres ni aprueba que su hermano siga involuncrado con las ventas de drogas.",
       "Es una persona solitaria y guarda muchos secretos.",
     ],
-    recomendados: ["Adrián", "Isidoro"],
+    recomendados: ["Adrián Firestone", "Isidoro Navarro"],
   },
   {
-    nombre: "Isidoro",
+    nombre: "Isidoro Navarro",
     rol: "Roleadora: Mara",
-    biografia: "En Desarrollo",
-    ocupacion: "Desconocido",
-    familia: "En Desarrollo",
+    biografia:
+      "Luego de un suceso que no recuerda, fue despedido del cuerpo y encomendada la misión, por parte de la CIA, de infiltrarse en los Sweet Dreams.",
+    ocupacion: "Agente de la CIA",
+    familia: "Desconocido",
     amigos: "Gustabo, Adrián, Sarah",
-    historia: ["En Desarrollo"],
-    curiosidades: ["En Desarrollo"],
-    recomendados: ["Adrián", "Sarah"],
+    historia: ["En desarrollo"],
+    curiosidades: [
+      "Su nombre original es Gonzalo, cambiado por la CIA. Los unicos que conocen su pasado son Adrián y Sarah.",
+      "Le encanta salir con muchas mujeres, agenda a cada una como Chica enumerandolas. Pero su Chica numero 1 siempre sera Gustabo.",
+      "Conocio a Adrián y a su hermana en las calles, cuando era joven y sobrevivia haciendo trabajos varios.",
+      "Su sueño siempre fue trabajar como policia y finalmente, después de años no solo fue contratado en el cuerpo, sino como agente de la CIA.",
+      "Desde la desaparición de Gustabo, Isidoro no ha parado de buscarlo.",
+    ],
+    recomendados: ["Adrián Firestone", "Sarah Firestone"],
   },
   {
     nombre: "Thais Sweetwheath",
@@ -264,5 +271,26 @@ let personajes = [
       "Cuando la telekinesis despertó era muy molesta pues terminaba atrayendo objetos involuntariamente.",
     ],
     recomendados: ["Lorna Castro"],
+  },
+  {
+    nombre: "Bo Xin",
+    rol: "Roleadora: Lolo",
+    biografia:
+      "Llegó a Asylum buscando ampliar su negocio y expandir el poder de los Sweet Dreams.",
+    ocupacion:
+      "Lider de la Mafia Sweet Dreams; conductor profesional de carreras ilegales",
+    familia: "Desconocido",
+    amigos: "Luis, Yados, Eduardo (Abuelo) y Adrián",
+    historia: [
+      "Empezó a delinquir a los trece años, edad en la cuál su padre Buah lo abandonó. Años después conoció a Luis, Yados y al abuelo formando así la banda de los Sweet Dreams; luego de mucho trabajo en el mundo ilegal se lograron posicionar como la mafia de armas y cocaína más poderosa de Los Santos.",
+    ],
+    curiosidades: [
+      "Adora correr en carreras ilegales.",
+      "Le encanta comprarse coches y luego tunearlos a su gusto.",
+      "Su mejor amigo es Luisito.",
+      "Su película favorita es Mulan.",
+      "Le encanta la música K-pop.",
+    ],
+    recomendados: ["Adrián Firestone", "Lorna Castro", "Agente X"],
   },
 ];
