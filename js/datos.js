@@ -362,7 +362,7 @@ let personajes = [
       "Siempre quiso ser padre.",
       "Mató a su hermano.",
     ],
-    recomendados: ["Toni Gambino", "Blanca Fermette Gambino"],
+    recomendados: ["Wernobyl Trucazo"],
   },
   {
     nombre: "Toni Gambino",
@@ -412,7 +412,7 @@ let personajes = [
     amigos: "Desconocido",
     historia: ["En desarrollo"],
     curiosidades: ["En desarrollo"],
-    recomendados: ["Freddy Trucazo", "Adrián FireStone"],
+    recomendados: ["Freddy Trucazo", "Adrián Firestone"],
   },
   {
     nombre: "Brillith Torres",
