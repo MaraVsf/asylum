@@ -20,6 +20,22 @@ let roleadores = [
     nombre: "Lolo",
     personajes: ["Lorna Castro", "Agente X", "Bo Xin"],
   },
+  {
+    nombre: "Blanca",
+    personajes: ["Blanca Fermette Gambino", "Freddy Trucazo", "Toni Gambino"],
+  },
+  {
+    nombre: "Internet Explorer",
+    personajes: ["Vanu Lop"],
+  },
+  {
+    nombre: "Wen",
+    personajes: ["Wernobyl Trucazo"],
+  },
+  {
+    nombre: "Brillos",
+    personajes: ["Brillith Torres"],
+  },
 ];
 
 let personajes = [
@@ -292,5 +308,129 @@ let personajes = [
       "Le encanta la música K-pop.",
     ],
     recomendados: ["Adrián Firestone", "Lorna Castro"],
+  },
+  {
+    nombre: "Blanca Fermette Gambino",
+    rol: "Roleadora: Blanca",
+    biografia:
+      "Nació en Sicilia, Italia. Hija menor de los Gambino. Criada y entrenada para hacerse cargo de la CIA. Estudió psiquiatría y criminología. Llegó a Los Santos y al pueblo de Asylum en busca de algo en qué ocuparse y alejarse de su madre.",
+    ocupacion:
+      "Jefa de la CIA y del departamento de psiquiatría del hospital de Asylum",
+    familia:
+      "Tommaso Gambino (padre, ex-capo de la Cosa Nostra e inversionista. Actualmente fallecido.), Felice Castellano (madre, antigua jefa de la CIA), Toni Gambino (hermano mayor, capo de la Cosa Nostra y dueño de la cadena de supermercados Krule), Carlo Gambino (segundo hermano mayor, capo de la Cosa Nostra y dueño de la cadenas de supermercados Krule) y Daniela Gambino Lop (esposa, dueña del casino)",
+    amigos:
+      "Dani Gambino Lop, Wernobyl de Trucazo, Carlie Lim, Vanu Lop, Toni Gambino, Carlo Gambino, Brillith y Lorna Castro",
+    historia: [
+      "Desde pequeña fue criada como militar y entrenada de todas las maneras posibles para ser una jefa y saber todo tipo de defensa personal. Fue retenida en las instalaciones de la CIA durante toda su niñez y juventud donde fue torturada por agentes y su propia madre, y la mantuvieron lejos de sus hermanos. Estudió psiquiatría y criminología mientras estaba comprometida.",
+      "Llegó a Los Santos para librarse de su madre y rompió su antiguo compromiso, el cual fue un trato a sus espaldas y se enteró el mismo día que su boda. Fue casi obligada a casarse y ese mismo día llegó a Los Santos. Su objetivo principal en la CIA es cambiar el sistema antiguo de su madre y hacer mejor las cosas.",
+    ],
+    curiosidades: [
+      "Suele ser demasiada amable y generosa con las personas.",
+      "Es difícil ganar su aprecio.",
+      "Cree que todos son sus ratas de laboratorio exceptuando sus amigos y familia.",
+      "Es ludópata. Cree que es genético.",
+      "Diagnosticada con bipolaridad.",
+      "Posee signos de ser sociopata.",
+      "Es demasiado observadora y calculadora.",
+      "Excesivamente manipuladora e inteligente.",
+      "Casi nunca se calla.",
+      "La familia es primero.",
+      "Es sádica y despiadada cuando es necesario.",
+      "No puede tener hijos.",
+    ],
+    recomendados: ["Toni Gambino", "Freddy Trucazo"],
+  },
+  {
+    nombre: "Freddy Trucazo",
+    rol: "Roleadora: Blanca",
+    biografia:
+      "Nació en Galicia, España. Juventud relativamente normal. Se mudó a Los Santos desde joven. Formó parte de una banda y actualmente agente de la CIA.",
+    ocupacion:
+      "Agente Nivel 7 de la CIA y Superintendente de la LSPD,Los Santos Police Department y Juez.",
+    familia:
+      "Ricardo Trucazo (padre, carpintero. Actualmente fallecido.), Genoveva Trucazo (madre, sin ocupación registrada. Actualmente fallecida.), José María Trucazo (hermano mayor, jefe de la banda SL. Actualmente fallecido.) y Wernobyl Trucazo (esposa, abogada)",
+    amigos: "Wernobyl Trucazo, Lorna Castro y Noah Holiday",
+    historia: [
+      "Se mudó a Los Santos siendo joven. En su juventud, formó parte del Cuerpo Nacional de Policia, CNP, pero fue despedido por comportamiento inadecuado. Inició una banda criminal junto a su hermano llamada SL. Después fue reclutado por Jack Conway en el CNI que posteriormente cambió su nombre a CIA. Su misión actual es mantener a la ciudad de Los Santos estable como Superintendente de la LSPD.",
+    ],
+    curiosidades: [
+      "Padece de transtorno de identidad disociativo parcial.",
+      "Actualmente se sabe que solo tiene un Alter que se hace llamar Toro.",
+      "Es extremadamente, inteligente, manipulador y persuasivo.",
+      "Se destaca en la agencia por ser sicario.",
+      "No le gusta relacionarse con las personas o profundizar relaciones.",
+      "Siempre quiso ser padre.",
+      "Mató a su hermano.",
+    ],
+    recomendados: ["Toni Gambino", "Blanca Fermette Gambino"],
+  },
+  {
+    nombre: "Toni Gambino",
+    rol: "Roleadora: Blanca",
+    biografia:
+      "Nació en Sicilia, Italia. Hermano mayor de la familia Gambino. Fue criado en casa y formado para ser el sucesor del imperio de su padre.",
+    ocupacion:
+      "Capo de la Cosa Nostra y Jefe/Dueño de la cadena de supermercados Krule",
+    familia:
+      "Tommaso Gambino (padre, ex-capo de la Cosa Nostra e inversionista. Actualmente fallecido.), Felice Castellano (madre, antigua jefa de la CIA), Carlo Gambino (hermano menor, capo de la Cosa Nostra y dueño de la cadenas de supermercados Krule) y Blanca Fermette Gambino (hermana menor, jefa de la CIA y psiquiatra)",
+    amigos:
+      "Carlo Gambino, Blanca Fermette Gambino, Gasolino López, José Heredia, Igor y Hai Cheng",
+    historia: [
+      "Desde pequeño fue criado como el jefe de la familia. Criado en casa y entrenado para formar parte y llevar la mafia de su padre. Fue destinado como el heredero de la Cosa Nostra. Se le enseñó a manejar armas y a ser buen negociador. Llegó a Marbella para establecer las bases del nuevo imperio después de la muerte de su padre y allí tuvo problemas con la policía y el FBI. Huyó junto a otros conocidos y amigos suyos en un avión y pidió asilo a su hermana. Después voló a Los Santos y actualmente se hospeda en Asylum. Sigue con su cadena de supermercados y establece la base para un nuevo imperio bajo la tutela de la CIA.",
+    ],
+    curiosidades: [
+      "Su padre siempre lo tachó de blando.",
+      "Es muy inteligente y buen negociador.",
+      "Ama a su mafia, pero prefiere el Krule.",
+      "Es ludópata. Piensa que es genético.",
+      "Siempre viste de traje.",
+      "Fiel creyente religioso.",
+      "Padece de heterocromía.",
+      "Es demasiado amable para su puesto.",
+      "Sobreprotector.",
+      "Tenía pésima puntería hasta que su hermana le enseñó.",
+    ],
+    recomendados: ["Blanca Fermette Gambino", "Freddy Trucazo"],
+  },
+  {
+    nombre: "Vanu Lop",
+    rol: "Roleadora: Internet Explorer",
+    biografia: "En desarrollo",
+    ocupacion: "Desconocido",
+    familia: "Desconocido",
+    amigos: "Desconocido",
+    historia: ["En desarrollo"],
+    curiosidades: ["En desarrollo"],
+    recomendados: ["Blanca Fermette Gambino", "Freddy Trucazo"],
+  },
+  {
+    nombre: "Wernobyl Trucazo",
+    rol: "Roleadora: Wen",
+    biografia: "En desarrollo",
+    ocupacion: "Desconocido",
+    familia: "Desconocido",
+    amigos: "Desconocido",
+    historia: ["En desarrollo"],
+    curiosidades: ["En desarrollo"],
+    recomendados: ["Freddy Trucazo", "Adrián FireStone"],
+  },
+  {
+    nombre: "Brillith Torres",
+    rol: "Roleadora: Brillos",
+    biografia: "Llegó a Asylum por la misión que le encargó el FBI.",
+    ocupacion: "Ex agente del FBI/ Dueña de la Cafetería de Asylum",
+    familia: "Desconocido",
+    amigos: "Pame Liu",
+    historia: [
+      "Fue entrenada en el FBI convirtiéndose en agente, llegó a Asylum cuando su jefa Vanu le encargó la misión de enamorar a Mad para sacar información de la misma. Luego de que todo saliera mal le borraron la memoria con ayuda de la CIA; tuvo que cambiar su aspecto físico y actualmente tiene una cafetería además de estar comprometida con la comisaría de Asylum.",
+    ],
+    curiosidades: [
+      "Aprendió todo lo que sabe de cocina por su abuela.",
+      "Se encariña rápido.",
+      "Siempre quiso tener su propia familia.",
+      "Le gusta mucho dar regalos a los que aprecia.",
+      "Tener su propia cafetería es lo que siempre quiso.",
+    ],
+    recomendados: ["Blanca Fermette Gambino", "Adrián FireStone"],
   },
 ];
