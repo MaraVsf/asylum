@@ -150,3 +150,33 @@ if (personajeSeleccionado) {
 } else {
   console.error("Personaje no encontrado");
 }
+
+// Dark Mode
+document.addEventListener("DOMContentLoaded", () => {
+  const toggleButton = document.getElementById("darkModeToggle");
+  const currentMode = localStorage.getItem("colorMode");
+
+  // Aplica la preferencia guardada
+  if (currentMode) {
+    document.body.classList.add(currentMode);
+  } else {
+    // Detecta preferencia del sistema y establece la clase por defecto
+    const prefersDarkScheme = window.matchMedia(
+      "(prefers-color-scheme: dark)"
+    ).matches;
+    document.body.classList.add(prefersDarkScheme ? "dark-mode" : "light-mode");
+  }
+
+  // Alterna el modo al hacer clic en el botón
+  toggleButton.addEventListener("click", () => {
+    if (document.body.classList.contains("dark-mode")) {
+      document.body.classList.remove("dark-mode");
+      document.body.classList.add("light-mode");
+      localStorage.setItem("colorMode", "light-mode");
+    } else {
+      document.body.classList.remove("light-mode");
+      document.body.classList.add("dark-mode");
+      localStorage.setItem("colorMode", "dark-mode");
+    }
+  });
+});

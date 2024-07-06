@@ -89,7 +89,12 @@ let roleadores = [
   },
   {
     nombre: "Brillos",
-    personajes: ["Brillith Torres", "Cesar Carter", "Ronald Gutierrez"],
+    personajes: [
+      "Brillith Torres",
+      "Cesar Carter",
+      "Ronald Gutierrez",
+      "Alexandra Rivera",
+    ],
   },
   {
     nombre: "Carlie",
@@ -98,6 +103,7 @@ let roleadores = [
       "Carlo Gambino",
       "Carlie Lim",
       "Maxim Zaitsev",
+      "Andrei Lim",
     ],
   },
   {
@@ -146,6 +152,7 @@ let personajes = [
       "Adrián se fue a vivir a Marbella, donde conoció a Bo en una carrera inlegal, donde este le ayudo a escapar de la policia. Desde entonces trabaja para él y se hizo gran amigo de este y varios integrantes de la banda.",
     ],
     curiosidades: [
+      "Su emoji es 💖",
       "Es muy protector con su hermana.",
       "Conoce a Isidoro desde jóvenes, antes de que este ingresara a la CIA. Mantuvieron la amistad a pesar de que tomaron caminos opuestos.",
       "Le gusta coquetear con mujeres, sobre todo casadas, ya que le gusta el desafío.",
@@ -168,6 +175,7 @@ let personajes = [
       "Sarah fue militar pero fue echada del cuerpo luego de agredir a un superior, quemandole el rostro. Se caso al poco tiempo de llegar a Asylum, pero luego de ser atrapada coqueteando con otras mujeres, su esposa le pide el divorcio y aborta el hijo que estaban esperando.",
     ],
     curiosidades: [
+      "Su emoji es 🔥",
       "Le gusta los animales y el fuego (es pirómana).",
       "Conoce a Isidoro desde que eran jóvenes gracias a su hermano, lo considera como su segundo hermano.",
       "No entiende porque le gustaba ir a misa estando en Asylum, ya que nunca fue una persona religiosa.",
@@ -186,6 +194,7 @@ let personajes = [
     amigos: "Gustabo, Adrián, Sarah",
     historia: ["En desarrollo"],
     curiosidades: [
+      "Su emoji es 🫀",
       "Su nombre original es Gonzalo, cambiado por la CIA. Los unicos que conocen su pasado son Adrián y Sarah.",
       "Le encanta salir con muchas mujeres, agenda a cada una como Chica enumerandolas. Pero su Chica numero 1 siempre sera Gustabo.",
       "Conocio a Adrián y a su hermana en las calles, cuando era joven y sobrevivia haciendo trabajos varios.",
@@ -419,6 +428,7 @@ let personajes = [
       "Llegó a Los Santos para librarse de su madre y rompió su antiguo compromiso, el cual fue un trato a sus espaldas y se enteró el mismo día que su boda. Fue casi obligada a casarse y ese mismo día llegó a Los Santos. Su objetivo principal en la CIA es cambiar el sistema antiguo de su madre y hacer mejor las cosas.",
     ],
     curiosidades: [
+      "Su emoji es 🍷",
       "Suele ser demasiada amable y generosa con las personas.",
       "Es difícil ganar su aprecio.",
       "Cree que todos son sus ratas de laboratorio exceptuando sus amigos y familia.",
@@ -448,6 +458,7 @@ let personajes = [
       "Se mudó a Los Santos siendo joven. En su juventud, formó parte del Cuerpo Nacional de Policia, CNP, pero fue despedido por comportamiento inadecuado. Inició una banda criminal junto a su hermano llamada SL. Después fue reclutado por Jack Conway en el CNI que posteriormente cambió su nombre a CIA. Su misión actual es mantener a la ciudad de Los Santos estable como Superintendente de la LSPD.",
     ],
     curiosidades: [
+      "Su emoji como Freddy es 🪓 y como Toro es 🐃",
       "Padece de transtorno de identidad disociativo parcial.",
       "Actualmente se sabe que solo tiene un Alter que se hace llamar Toro.",
       "Es extremadamente, inteligente, manipulador y persuasivo.",
@@ -473,6 +484,7 @@ let personajes = [
       "Desde pequeño fue criado como el jefe de la familia. Criado en casa y entrenado para formar parte y llevar la mafia de su padre. Fue destinado como el heredero de la Cosa Nostra. Se le enseñó a manejar armas y a ser buen negociador. Llegó a Marbella para establecer las bases del nuevo imperio después de la muerte de su padre y allí tuvo problemas con la policía y el FBI. Huyó junto a otros conocidos y amigos suyos en un avión y pidió asilo a su hermana. Después voló a Los Santos y actualmente se hospeda en Asylum. Sigue con su cadena de supermercados y establece la base para un nuevo imperio bajo la tutela de la CIA.",
     ],
     curiosidades: [
+      "Su emoji es 🕶️",
       "Su padre siempre lo tachó de blando.",
       "Es muy inteligente y buen negociador.",
       "Ama a su mafia, pero prefiere el Krule.",
@@ -554,6 +566,7 @@ let personajes = [
     familia: "Desconocido",
     amigos: "Sarah",
     historia: [
+      "Su emoji es 🍭",
       "Vivía en una casa a las afueras de Asylum, hasta que ellos desaparecieron. Mei decidió esperarlos, quedándose varios años ahí sola, sobreviviendo de robar en las calles. Cuando Sarah apareció en su vida, decidió que era su destino enviada por su madre y no piensa despegarse de ella.",
     ],
     curiosidades: [
@@ -938,13 +951,24 @@ let personajes = [
   {
     nombre: "Aiden Holiday Castro",
     rol: "Roleadora: Lolo",
-    biografia: "En desarrollo",
-    ocupacion: "Desconocido",
-    familia: "Desconocido",
-    amigos: "Desconocido",
-    historia: ["En desarrollo"],
-    curiosidades: ["En desarrollo"],
-    recomendados: ["Lorna Castro"],
+    biografia:
+      "Son robots, copias en miniatura, parecidas a un niño. Fueron hechos en un laboratorio por Blanca Fermette Gambino. Su padre original, ya que son del mismo sistema software, es Igor Cheryshev original. Su propósito es cuidar, ayudar y vigilar a sus dueños.",
+    ocupacion: "Mini sicario",
+    familia:
+      "Igor Cheryshev (padre original), Blanca Fermette Gambino (creadora), y sus madres sustitutas: Blanca Fermette Gambino, Lorna Castro y Carlie Lim.",
+    amigos:
+      "Blanca Fermette Gambino, Lorna Castro, Carlie Lim, Igor Cheryshev y Pame",
+    historia: [
+      "Fueron creados en un laboratorio con la mejor tecnología de la CIA. Pueden hacer múltiples actividades. Son trillizos, completamente iguales entre sí. Pueden cambiar su apariencia, aparecer y desaparecer personas y cosas. Se alimentan de personas y animales y son bastante juguetones como un niño de su edad. Su propósito es mantener la estabilidad en el pueblo junto a sus dueñas y siempre obedecerlas. Su sistema es mejor que el Igor original, pero comparten el mismo software.",
+    ],
+    curiosidades: [
+      "Es bastante curioso.",
+      "Le gusta experimentar con químicos.",
+      "Es bastante tranquilo.",
+      "Estuvo practicando por días el acento de su madre para cambiar el propio.",
+      "Cambio sus rasgos faciales en base a los de su madre.",
+    ],
+    recomendados: ["Lorna Castro", "Blanca Fermette Gambino"],
   },
   {
     nombre: "Hazel Smith",
@@ -1009,7 +1033,7 @@ let personajes = [
     familia: "Desconocido",
     amigos: "Desconocido",
     historia: ["En desarrollo"],
-    curiosidades: ["En desarrollo"],
+    curiosidades: ["Su emoji es 🧀"],
     recomendados: ["Freddy Trucazo", "Isidoro Navarro"],
   },
   {
@@ -1020,7 +1044,7 @@ let personajes = [
     familia: "Desconocido",
     amigos: "Desconocido",
     historia: ["En desarrollo"],
-    curiosidades: ["En desarrollo"],
+    curiosidades: ["Su emoji es 🍩"],
     recomendados: ["Freddy Trucazo", "Isidoro Navarro"],
   },
   {
@@ -1031,7 +1055,7 @@ let personajes = [
     familia: "Desconocido",
     amigos: "Desconocido",
     historia: ["En desarrollo"],
-    curiosidades: ["En desarrollo"],
+    curiosidades: ["Su emoji es 🚬"],
     recomendados: ["Carlo Gambino", "Toni Gambino"],
   },
   {
@@ -1042,7 +1066,7 @@ let personajes = [
     familia: "Desconocido",
     amigos: "Desconocido",
     historia: ["En desarrollo"],
-    curiosidades: ["En desarrollo"],
+    curiosidades: ["Su emoji es 👮🏼‍♂️"],
     recomendados: ["Freddy Trucazo", "Isidoro Navarro"],
   },
   {
@@ -1053,19 +1077,34 @@ let personajes = [
     familia: "Desconocido",
     amigos: "Desconocido",
     historia: ["En desarrollo"],
-    curiosidades: ["En desarrollo"],
+    curiosidades: ["Su emoji es 🏹"],
     recomendados: ["Freddy Trucazo"],
   },
   {
     nombre: "Igor Junior Gambino",
     rol: "Roleadora: Blanca",
-    biografia: "En desarrollo",
-    ocupacion: "Desconocido",
-    familia: "Desconocido",
-    amigos: "Desconocido",
-    historia: ["En desarrollo"],
-    curiosidades: ["En desarrollo"],
-    recomendados: ["Carlo Gambino", "Toni Gambino"],
+    biografia:
+      "Son robots, copias en miniatura, parecidas a un niño. Fueron hechos en un laboratorio por Blanca Fermette Gambino. Su padre original, ya que son del mismo sistema software, es Igor Cheryshev original. Su propósito es cuidar, ayudar y vigilar a sus dueños.",
+    ocupacion: "Mini sicario",
+    familia:
+      "Igor Cheryshev (padre original), Blanca Fermette Gambino (creadora), y sus madres sustitutas: Blanca Fermette Gambino, Lorna Castro y Carlie Lim.",
+    amigos:
+      "Blanca Fermette Gambino, Lorna Castro, Carlie Lim, Igor Cheryshev y Pame",
+    historia: [
+      "Fueron creados en un laboratorio con la mejor tecnología de la CIA. Pueden hacer múltiples actividades. Son trillizos, completamente iguales entre sí. Pueden cambiar su apariencia, aparecer y desaparecer personas y cosas. Se alimentan de personas y animales y son bastante juguetones como un niño de su edad. Su propósito es mantener la estabilidad en el pueblo junto a sus dueñas y siempre obedecerlas. Su sistema es mejor que el Igor original, pero comparten el mismo software.",
+    ],
+    curiosidades: [
+      "Su emoji es 🔫",
+      "Le gusta comer animales, pero también los ama, entonces nunca come uno.",
+      "Es muy juguetón y curioso.",
+      "Le gusta pasar el tiempo jugando con animales.",
+      "Sus lugares favoritos son el campo de tiro y el de batalla.",
+      "Suele ir al campo de entrenamiento de batalla de la CIA para aventar bombas y disparar con metralletas a los agentes.",
+      "Ama comer a gente que se porta mal.",
+      "Ve películas en blanco y negro.",
+      "Aún conserva su apariencia del Mini Igor a excepción de sus ojos azules.",
+    ],
+    recomendados: ["Igor Cheryshev", "Blanca Fermette Gambino"],
   },
   {
     nombre: "Rogelio García",
@@ -1075,7 +1114,7 @@ let personajes = [
     familia: "Desconocido",
     amigos: "Desconocido",
     historia: ["En desarrollo"],
-    curiosidades: ["En desarrollo"],
+    curiosidades: ["Su emoji es 🐐"],
     recomendados: ["Segismundo"],
   },
   {
@@ -1279,5 +1318,37 @@ let personajes = [
     historia: ["En desarrollo"],
     curiosidades: ["En desarrollo"],
     recomendados: ["Nikaru Morningstar"],
+  },
+  {
+    nombre: "Andrei Lim",
+    rol: "Roleadora: Carlie",
+    biografia:
+      "Son robots, copias en miniatura, parecidas a un niño. Fueron hechos en un laboratorio por Blanca Fermette Gambino. Su padre original, ya que son del mismo sistema software, es Igor Cheryshev original. Su propósito es cuidar, ayudar y vigilar a sus dueños.",
+    ocupacion: "Mini sicario",
+    familia:
+      "Igor Cheryshev (padre original), Blanca Fermette Gambino (creadora), y sus madres sustitutas: Blanca Fermette Gambino, Lorna Castro y Carlie Lim.",
+    amigos:
+      "Blanca Fermette Gambino, Lorna Castro, Carlie Lim, Igor Cheryshev y Pame",
+    historia: [
+      "Fueron creados en un laboratorio con la mejor tecnología de la CIA. Pueden hacer múltiples actividades. Son trillizos, completamente iguales entre sí. Pueden cambiar su apariencia, aparecer y desaparecer personas y cosas. Se alimentan de personas y animales y son bastante juguetones como un niño de su edad. Su propósito es mantener la estabilidad en el pueblo junto a sus dueñas y siempre obedecerlas. Su sistema es mejor que el Igor original, pero comparten el mismo software.",
+    ],
+    curiosidades: [
+      "Es tranquilo, disfruta mucho ver películas en blanco y negro junto a sus mamás.",
+      "Suele estar examinandolas en salud como su forma de cuidarlas.",
+      "Le gusta salir con su mamá Carlie en las noches para comer, ya que le divierte cazar vagabundos.",
+      "Su mayor tesoro es la navaja de su primer víctima que cazó junto a su madre.",
+    ],
+    recomendados: ["Carlie Lim", "Blanca Fermette Gambino"],
+  },
+  {
+    nombre: "Alexandra Rivera",
+    rol: "Roleadora: Brillos",
+    biografia: "En desarrollo",
+    ocupacion: "Desconocido",
+    familia: "Desconocido",
+    amigos: "Desconocido",
+    historia: ["En desarrollo"],
+    curiosidades: ["En desarrollo"],
+    recomendados: ["Ronald Gutierrez"],
   },
 ];

@@ -4,11 +4,41 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+:root {
+  color-scheme: light dark;
+}
+
+/* Modo oscuro */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode .button {
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+}
+
+/* Modo claro */
+body.light-mode {
+  background-color: #f5f5f5;
+  color: #121212;
+}
+
+body.light-mode .button {
+  background-color: #ffffff;
+  color: #121212;
+}
+
 /*? Home */
 /* Header*/
 
 .containerHeader {
-  padding: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
   background-color: #ac5418;
 }
 
@@ -16,12 +46,23 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #fefefe;
   font-size: 24px;
-  padding-left: 4px;
+  padding-left: 10px;
   text-decoration: none;
 }
 
 .containerHeader a:hover {
   color: #fefefed4;
+}
+
+#darkModeToggle {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.containerHeader .button img {
+  height: 35px;
+  padding-right: 10px;
 }
 
 /* Cabecera */
@@ -59,7 +100,6 @@ body {
 .containerCab p {
   z-index: 2; /* Asegura que el texto esté por encima de la capa oscura */
 }
-
 .containerCab h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 40px;
@@ -68,6 +108,14 @@ body {
 
 .containerCab p {
   font-size: 16px;
+}
+
+.containerCab .button img {
+  height: 40px;
+  position: absolute;
+  z-index: 3;
+  top: 10px;
+  right: 10px;
 }
 
 /* Bottones */
@@ -81,29 +129,28 @@ body {
 }
 
 .containerButtons input[type="radio"] {
-  display: none; /* Oculta los radio buttons */
+  display: none;
 }
 
 .containerButtons .button {
   width: 400px;
   padding: 2px;
   cursor: pointer;
-  border: 1px solid #2712007e; /* #575757a2; */
-  background-color: #e9ba87; /* #d7d7d7; Color de fondo del botón */
+  border: 1px solid #0000007e;
   text-align: center;
-  line-height: 2; /* Ajusta para centrar verticalmente el texto */
+  line-height: 2;
 }
 
 .containerButtons .button:first-of-type {
-  border-radius: 10px 1px 1px 10px; /* Bordes redondeados para el primer botón */
+  border-radius: 10px 1px 1px 10px;
 }
 
 .containerButtons .button:last-of-type {
-  border-radius: 1px 10px 10px 1px; /* Bordes redondeados para el segundo botón */
+  border-radius: 1px 10px 10px 1px;
 }
 
 .containerButtons input[type="radio"]:checked + .button {
-  background-color: #b85f12; /* #b0b0b0; Color de fondo cuando está seleccionado */
+  background-color: #b85f12;
   color: #fefefe;
 }
 
@@ -161,6 +208,7 @@ body {
 .containerPjs h3,
 .containerPjs p {
   margin: 5px 0;
+  color: #121212;
 }
 
 .containerPjs h3 {
@@ -242,4 +290,33 @@ body {
   cursor: pointer;
   margin: 5px;
   width: 130px;
+}
+
+@media (min-width: 768px) {
+  /* Cabecera */
+  .containerCab {
+    height: 400px;
+    background-position: center;
+  }
+
+  .containerCab h1 {
+    font-size: 80px;
+  }
+
+  .containerCab p {
+    font-size: 24px;
+  }
+
+  #fichaPjs,
+  #fichaRol {
+    margin-bottom: 30px;
+  }
+
+  .contentPj {
+    margin-right: 80px;
+  }
+
+  .contentPj .idPjs {
+    width: 50%;
+  }
 }
