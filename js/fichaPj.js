@@ -79,6 +79,19 @@ function crearFichaPj(personaje) {
   });
   articleCurio.appendChild(ulCurio);
 
+  // Identificación
+  const articleIden = document.createElement("article");
+  articleIden.className = "contentPj";
+  const h2Iden = document.createElement("h2");
+  h2Iden.textContent = "Identificación";
+  articleIden.appendChild(h2Iden);
+
+  const imgIden = document.createElement("img");
+  imgIden.src = `img/id${personaje.nombre}.jpg`;
+  imgIden.alt = personaje.nombre;
+  imgIden.className = "idPjs";
+  articleIden.appendChild(imgIden);
+
   // Recomendaciones
   const articleRecomend = document.createElement("article");
   articleRecomend.className = "contentPj recomend";
@@ -121,6 +134,7 @@ function crearFichaPj(personaje) {
   fichaPj.appendChild(articleBio);
   fichaPj.appendChild(articleHist);
   fichaPj.appendChild(articleCurio);
+  fichaPj.appendChild(articleIden);
   fichaPj.appendChild(h2Recomend);
   fichaPj.appendChild(articleRecomend);
 }
